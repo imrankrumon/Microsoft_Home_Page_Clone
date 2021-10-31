@@ -1,0 +1,69 @@
+@media (max-width: 768px) {
+    .nav {
+        &__menu--btn {
+            display: block;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        &__main {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 0;
+            padding: 2.5rem 1.5rem;
+            background: #f2f2f2;
+            opacity: 0.9;
+            width: 50%;
+            height: 100vh;
+            transform: translateX(-500px);
+            transition: transform 500ms ease-in-out;
+
+            &.show {
+                transform: translateX(-20px);
+            }
+
+            li {
+                padding: 0.7rem;
+                font-size: 0.9rem;
+                border-bottom: 1px solid #ccc;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+
+        &__right {
+            margin-right: 3rem;
+        }
+    }
+
+    .home-cards {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
+    .xbox {
+        &__content {
+            padding-top: 4rem;
+
+            p {
+                display: none;
+            }
+
+            h2 {
+                margin-bottom: 1.25rem;
+            }
+        }
+    }
+
+    .carbon {
+        &__content {
+            width: 85%;
+            padding-top: 5rem;
+        }
+    }
+}

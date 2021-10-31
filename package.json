@@ -1,0 +1,22 @@
+{
+  "name": "microsoft_home_page_clone",
+  "version": "1.0.0",
+  "description": "Microsoft Home Page Clone",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imrankrumon/Microsoft_Home_Page_Clone.git"
+  },
+  "author": "Imran Rumon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imrankrumon/Microsoft_Home_Page_Clone/issues"
+  },
+  "homepage": "https://github.com/imrankrumon/microsoft_home_page_clone",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
